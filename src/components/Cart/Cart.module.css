@@ -1,0 +1,92 @@
+.carttable {
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.td {
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.cartbutton {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+  }
+  
+  .cartbutton1 {
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(192, 192, 192, 0.356);
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  
+  .cartbutton1:hover {
+    background-color: #c92727;
+    color: white;
+  }
+
+.heading{
+    margin-left: 8%;
+}
+
+.email{
+    font-size: 18px;
+    margin-left: 8%;
+    margin-top: 10px;
+}
+
+
+.totalcartprice{
+  margin-left: 8%;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+
+.cheakoutbtn {
+  background-color: rgb(35, 35, 124);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin: 20px 0px 0px 150px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.cheakoutbtn1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(192, 192, 192, 0.356);
+  width: 120px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.cheakoutbtn1:hover {
+  background-color: #273ea5;
+  color: white;
+}

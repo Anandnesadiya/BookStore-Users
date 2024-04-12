@@ -1,0 +1,223 @@
+/* main container of book card */
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 10px;
+  margin: 50px 20px 0px 20px;
+  gap: 0px;
+  text-decoration: none;
+}
+
+/* books card's image  */
+.cardimage {
+  height: 180px;
+  width: 130px;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  border-width: 1px;
+}
+
+/* card of books  */
+.card {
+  background-color: rgb(168, 100, 100);
+  width: 40%;
+  /* border-left:10px; */
+  /* border-top:10px; */
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+
+/* books card title  */
+.cardtitle {
+  display: flex;
+  align-self: center;
+  font-family: Arial, Helvetica, serif;
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+/* books card details  */
+.carddetails {
+  padding-top: 10px;
+  display: flex;
+  align-self: center;
+  font-size: 14px;
+  margin: -4px;
+}
+
+/* books card edit button  */
+
+.editbutton {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 40%;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.editbutton1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(192, 192, 192, 0.356);
+}
+
+.editbutton1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+/* books card delete button  */
+
+.deletebutton {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 40%;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.deletebutton1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(192, 192, 192, 0.356);
+}
+
+.deletebutton1:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* edit delete button of card div */
+.btndiv {
+  margin-top: 10px;
+  padding-left: 15%;
+}
+
+/* card hover effect */
+.zoom {
+  transition: transform .2s;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 7px;
+  border-style:solid ;
+  border-color: rgb(198, 198, 198);
+  border-width: 0.0001rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-width: 0.0001rem;
+
+}
+
+
+/* add book button  */
+.addbtndiv {
+  text-align: left;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+
+.addbookbutton {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 400px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.addbookbutton1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(192, 192, 192, 0.356);
+}
+
+.addbookbutton1:hover {
+  background-color: #0009ba;
+  color: white;
+}
+
+#searchinput {
+  padding-top: 5px;
+  background-color: #ffffff;
+  width: 350px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-left: 47px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  height: 36px;
+}
+
+#searchbtn {
+  background-color: rgba(33, 37, 41, 1);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 120px;
+  height: 36px;
+  border-radius: 20px;
+  padding-top: 4px;
+  padding-left: 18px;
+  margin: 0px 0px 0px 10px;
+  padding-bottom: 4px;
+}
+
+.searchform {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.wishlistimage{
+  margin-left: 190px;
+  height: 16px;
+}
